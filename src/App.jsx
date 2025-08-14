@@ -136,7 +136,7 @@ export default function App(){
                 </div>
               </li>
             ))}
-            {visible.length===0 and <li className="text-slate-500">Ingen prompts matcher.</li>}
+            {visible.length===0 && <li className="text-slate-500">Ingen prompts matcher.</li>}
           </ul>
         </main>
       </div>
